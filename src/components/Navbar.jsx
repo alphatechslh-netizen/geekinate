@@ -11,10 +11,10 @@ const Navbar = () => {
      
         <img className="h-[70px]" src={logo} alt="" />
         <ul className="flex items-center justify-center list-none gap-[20px] hidden md:flex">
-            <li>About</li>
-            <li>Services</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
             <li>Portfolio</li>
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <div className='md:hidden text-[20px]'
         onClick={()=>setIsopen(!isopen)}>

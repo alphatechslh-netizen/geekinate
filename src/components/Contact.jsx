@@ -4,7 +4,7 @@ import contact from '../assets/contact.svg'
 const Contact = () => {
   return (
    <>
-   <div className="contact flex-col items-center">
+   <div id='contact' className="contact flex-col items-center scroll-mt-20">
     <div className="connect text-center">
         <h1 className='font-bold text-[30px]' data-aos="fade-up" data-aos-duration="1000">Get In Touch!</h1>
         <p className='text-center' data-aos="fade-up" data-aos-duration="1500">We love to talk to the people, listen to their requirements and team up to refine and Geekinate their tech needs.</p>

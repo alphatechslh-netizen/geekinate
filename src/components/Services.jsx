@@ -7,7 +7,7 @@ import { HiSpeakerphone } from "react-icons/hi";
 const Services = () => {
   return (
    <>
-   <div className="services ">
+   <div id='services' className="services scroll-mt-20 ">
     <div className="work flex flex-col items-center justify-center">
         <h1 className="text-[30px] font-bold"  data-aos="fade-up" data-aos-duration="2000">What we do?</h1>
         <p className='text-center'  data-aos="fade-up" data-aos-duration="2000">We are a team of <span className='text-green-400'>Geeks</span> with great expertise</p><br />

@@ -18,3 +18,6 @@
 .custom-shape-divider-top-1790054908 .shape-fill {
     fill: white;
 }
+*{
+    scroll-behavior: smooth;
+}

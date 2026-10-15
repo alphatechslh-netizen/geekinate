@@ -5,7 +5,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const About = () => {
   return (
    <>
-   <div className="about flex flex-col items-center justify-center gap-[20px] sm:flex-row">
+   <div id='about' className="about flex flex-col items-center justify-center gap-[20px] sm:flex-row scroll-mt-20">
     <div className="box h-auto w-[70%] sm:w-[45%] " data-aos="zoom-in-down" data-aos-duration="2000"><img className="h-full w-full" src={geekinate} alt="" /></div>
     <div className="box h-auto w-[90%] sm:w-[45%] ">
         <h2 className="font-bold text-[30px] pt-12"  data-aos="fade-up">
